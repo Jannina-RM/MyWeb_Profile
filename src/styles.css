@@ -4,7 +4,9 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap");
 
-html,
+html{
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Montserrat", sans-serif;
   height: 100%;
@@ -30,7 +32,7 @@ section.min-height {
 }
 
 section.padding {
-  padding: 5rem 0;
+  padding: 2rem 0;
 }
 
 section img.background {
@@ -44,20 +46,22 @@ section img.background {
   width: 100vmax;
   z-index: -1;
 }
-
+/* Titulo Nombre */
 h1 {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 7rem;
+  font-family: "Cormorant Garamond", serif; 
+  font-size: 4rem;
   font-weight: 400;
-  line-height: 0.8;
+  line-height: 1;
   margin: 0;
+  color: rgb(255, 255, 255);
 }
-
+/* Titulo Carrera */
 h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 400;
   margin: 0;
-  padding-top: 1rem;
+  padding-top: 0.5rem;
+  color: rgb(255, 255, 255);
 }
 
 h3 {
@@ -65,9 +69,9 @@ h3 {
   font-size: 1.25rem;
   margin: 0;
 }
-
+/*Frase de cierre*/
 p {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
   margin-bottom: 0;
   font-weight: 300;
@@ -82,11 +86,11 @@ p.small {
 }
 
 hr {
-  margin: 2.5rem;
+  margin: 2rem;
 }
 
 li {
-  line-height: 1.7;
+  line-height: 1.5;
 }
 
 li::marker {
@@ -94,7 +98,7 @@ li::marker {
 }
 
 a {
-  color: black;
+  color: rgb(178, 114, 184);
   text-decoration: none;
 }
 
@@ -104,9 +108,9 @@ a:hover {
 
 .container {
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 30px;
   grid-template-columns: 330px 300px;
-  margin: 20px auto;
+  margin: 30px auto;
 }
 
 .container .box {
