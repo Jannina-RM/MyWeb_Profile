@@ -20,7 +20,7 @@ import image from "../images/motion-background.jpg";
 
 const imageAltText = "purple and blue abstract background";
 
-import image2 from "../images/3. Foto- Jannina Romero Mori.jpg";
+import image2 from "../images/Jannina Romero-R9.jpeg";
 
 const imageAltText2 = "JanninaFoto";
 
@@ -28,7 +28,7 @@ const imageAltText2 = "JanninaFoto";
 /**
  * Sort description that expands on your title on the Home component.
  */
-const description = "Hi, my name is Jannina Romero. I am a student of industrial engineering at the National University of San Marcos - Perú. ";
+const description = "Hi, my name is Jannina Romero 🤗. I am a student of industrial engineering at the National University of San Marcos - Perú. ";
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
@@ -48,7 +48,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "This blog is a space for the community of curious minds passionate about engineering. Here, you'll find stories, reflections and projects that I hope will inspire you as well";
+  "This blog is a space for the community of curious minds passionate about engineering. Here, you'll find stories, reflections and projects that I hope will inspire you as well🎯";
 
 const About = () => {
   return (
